@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "待办列表"
+    },
+    {
+      "name": "page_title",
+      "value": "待办"
+    },
+    {
+      "name": "EntryAbility2_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility2_label",
+      "value": "label"
+    },
+    {
+      "name": "EntryAbility3_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility3_label",
+      "value": "label"
+    },
+    {
+      "name": "StateManagerAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "StateManagerAbility_label",
+      "value": "label"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "StateManagerAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    //    "srcEntry": './ets/abilityStage/MyAbilityStage.ets',
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ts",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+      },
+      {
+        "name": "EntryAbility2",
+        "srcEntry": "./ets/entryability/EntryAbility2.ts",
+        "description": "$string:EntryAbility2_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility2_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "launchType": "standard"
+      },
+      {
+        "name": "EntryAbility3",
+        "srcEntry": "./ets/entryability/EntryAbility3.ts",
+        "description": "$string:EntryAbility3_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility3_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+      },
+      {
+        "name": "StateManagerAbility",
+        "srcEntry": "./ets/entryability/StateManagerAbility.ts",
+        "description": "$string:StateManagerAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:StateManagerAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
