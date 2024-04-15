@@ -25,6 +25,15 @@ export class StateManagerData{
     }
   }
 
+  updateProgress(index: number, updateValue: number, updateDate: string): boolean {
+    if (!this.targetData[index]) {
+      return false;
+    }
+    this.targetData[index].taskProgress = updateValue;
+    this.targetData[index].updateDate = updateDate;
+    return true;
+  }
+
 
 }
 
