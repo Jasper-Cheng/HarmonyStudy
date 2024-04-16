@@ -39,6 +39,14 @@
     {
       "name": "StateManagerAbility_label",
       "value": "label"
+    },
+    {
+      "name": "VideoAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "VideoAbility_label",
+      "value": "label"
     }
   ]
 }

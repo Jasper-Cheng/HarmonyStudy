@@ -3,6 +3,8 @@
     "pages/ToDoListPage",
     "pages/Index",
     "pages/EntryAbility3Page",
-    "pages/StateManager"
+    "pages/StateManager",
+    "pages/VideoPlayer",
+    "pages/SimpleVideo"
   ]
 }

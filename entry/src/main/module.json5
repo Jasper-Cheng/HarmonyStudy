@@ -3,7 +3,7 @@
     "name": "entry",
     "type": "entry",
     "description": "$string:module_desc",
-    "mainElement": "StateManagerAbility",
+    "mainElement": "VideoAbility",
     "deviceTypes": [
       "phone",
       "tablet"
@@ -12,6 +12,11 @@
     "installationFree": false,
     "pages": "$profile:main_pages",
     //    "srcEntry": './ets/abilityStage/MyAbilityStage.ets',
+    "requestPermissions": [
+      {
+        "name": 'ohos.permission.INTERNET'
+      }
+    ],
     "abilities": [
       {
         "name": "EntryAbility",
@@ -20,7 +25,7 @@
         "icon": "$media:icon",
         "label": "$string:EntryAbility_label",
         "startWindowIcon": "$media:icon",
-        "startWindowBackground": "$color:start_window_background",
+        "startWindowBackground": "$color:start_window_background"
       },
       {
         "name": "EntryAbility2",
@@ -39,7 +44,7 @@
         "icon": "$media:icon",
         "label": "$string:EntryAbility3_label",
         "startWindowIcon": "$media:icon",
-        "startWindowBackground": "$color:start_window_background",
+        "startWindowBackground": "$color:start_window_background"
       },
       {
         "name": "StateManagerAbility",
@@ -47,6 +52,15 @@
         "description": "$string:StateManagerAbility_desc",
         "icon": "$media:icon",
         "label": "$string:StateManagerAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background"
+      },
+      {
+        "name": "VideoAbility",
+        "srcEntry": "./ets/entryability/VideoAbility.ts",
+        "description": "$string:VideoAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:VideoAbility_label",
         "startWindowIcon": "$media:icon",
         "startWindowBackground": "$color:start_window_background",
         "exported": true,
