@@ -47,6 +47,14 @@
     {
       "name": "VideoAbility_label",
       "value": "label"
+    },
+    {
+      "name": "FontAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "FontAbility_label",
+      "value": "label"
     }
   ]
 }

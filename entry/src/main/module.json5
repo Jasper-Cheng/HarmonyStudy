@@ -3,7 +3,7 @@
     "name": "entry",
     "type": "entry",
     "description": "$string:module_desc",
-    "mainElement": "VideoAbility",
+    "mainElement": "FontAbility",
     "deviceTypes": [
       "phone",
       "tablet"
@@ -61,6 +61,15 @@
         "description": "$string:VideoAbility_desc",
         "icon": "$media:icon",
         "label": "$string:VideoAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+      },
+      {
+        "name": "FontAbility",
+        "srcEntry": "./ets/entryability/FontAbility.ts",
+        "description": "$string:FontAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:FontAbility_label",
         "startWindowIcon": "$media:icon",
         "startWindowBackground": "$color:start_window_background",
         "exported": true,

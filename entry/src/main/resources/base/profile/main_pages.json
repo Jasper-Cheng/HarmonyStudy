@@ -5,6 +5,7 @@
     "pages/EntryAbility3Page",
     "pages/StateManager",
     "pages/VideoPlayer",
-    "pages/SimpleVideo"
+    "pages/SimpleVideo",
+    "pages/FontChange"
   ]
 }
