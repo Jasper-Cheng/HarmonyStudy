@@ -68,7 +68,7 @@
         "name": "FontAbility",
         "srcEntry": "./ets/entryability/FontAbility.ts",
         "description": "$string:FontAbility_desc",
-        "icon": "$media:icon",
+        "icon": "$media:top",
         "label": "$string:FontAbility_label",
         "startWindowIcon": "$media:icon",
         "startWindowBackground": "$color:start_window_background",

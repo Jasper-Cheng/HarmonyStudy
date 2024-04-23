@@ -54,7 +54,7 @@ export default class EntryAbility extends UIAbility {
 
   onNewWant(){
     console.log("Jasper EntryAbility onNewWant")
-    //当ability的启动模式为Multiton时，如果已经存在相同的ability,则不在创建而是重新进入(不走onCreate、onWindowStage,而是走onNewWant)
+    //当ability的启动模式为Specified时，如果已经存在相同的ability,则不在创建而是重新进入(不走onCreate、onWindowStage,而是走onNewWant)
   }
 
 }
